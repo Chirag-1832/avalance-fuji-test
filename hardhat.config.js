@@ -5,7 +5,7 @@ const FORK_MAINNET = false;
 let forkingData = undefined;
 const PRIVATE_KEY =
     process.env.PRIVATE_KEY ||
-    "0x256374abec0ab35b81c2cbc2afa4178eb43ea2956df9b2af19ff7ee048aad226"
+    "Your_private_key"
 
 if (FORK_MAINNET) {
   forkingData = {
@@ -46,6 +46,6 @@ module.exports = {
 module.exports = {
   // ...rest of the config...
   etherscan: {
-    apiKey: "EI2PSDBF3MMXXG3CHAVAIUXDZSMM9UZQ2F",
+    apiKey: "Your_api_key",
   },
 };
